@@ -42,5 +42,10 @@
     $scope.labels = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
     $scope.data = [300, 500, 100];
   });
-
+  // Pie Chart
+  angular.module('pie', ['chart.js', 'ngRoute'])
+  .controller('PieCtrl', function ($scope) {
+    $scope.labels = ["Download Sales", "In-Store Sales", "Mail-Order Sales"];
+    $scope.data = [300, 500, 100];
+  });
 })(angular);
