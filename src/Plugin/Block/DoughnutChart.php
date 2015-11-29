@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\angular_chart\Plugin\Block
+namespace Drupal\angular_chart\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 /**
